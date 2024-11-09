@@ -54,7 +54,7 @@ you were caught and eaten.""")
     option = input("Would you like to play again? [yes]/[no]\n")
     if option == 'yes':
         welcome()
-    elif:
+    elif option == 'no':
         print("Thanks for playing!")
     else:
         invalidoption()
