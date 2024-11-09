@@ -34,8 +34,8 @@ Branches scratch your face, and your heart pounds wildly in your chest.
 You dive into a ravine, hiding among the bushes. Fortune smiles upon you -
 the indigenous people rush past, not noticing your hiding spot. You take
 a moment to catch your breath, looking around and contemplating your next
-move. Should you go [back] to search for any survivors, or should you investigate
-and [enter] the ruined structure that looms in the distance?
+move. Should you go [back] to search for any survivors, or should you
+investigate and [enter] the ruined structure that looms in the distance?
 [back] or [enter]""")
     option = input()
     if option == 'back':
