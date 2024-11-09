@@ -37,6 +37,15 @@ a moment to catch your breath, looking around and contemplating your next
 move. Should you go [back] to search for any survivors, or should you investigate
 and [enter] the ruined structure that looms in the distance?
 [back] or [enter]""")
+    option = input()
+    if option == 'back':
+        returnback()
+    elif option == 'enter':
+        enterit()
+    else:
+        invalidoption()
+        forest()
+
 
 def invalidoption():
     print("You entered an invalid option, please try again.")
