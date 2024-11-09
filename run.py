@@ -73,6 +73,16 @@ a distance. What is your choise? [fight] or [throw]""")
         invalidoption()
         enterit()
 
+def fight():
+    print("""You charged into the fight, but without the necessary skills,
+you were easily defeated and killed. Your story ended here.""")
+    option = input("Would you like to play again? [yes]/[no]\n")
+    if option == 'yes':
+        welcome()
+    else:
+        print("Thanks for playing!")
+
+
 def invalidoption():
     print("You entered an invalid option, please try again.")
 
