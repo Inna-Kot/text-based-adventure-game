@@ -60,6 +60,7 @@ you were caught and eaten.""")
         invalidoption()
         returnback()
 
+
 def enterit():
     print("""You stumble upon a native islander, and you are faced with
 a choice: rush in and engage in a [fight] or [throw] a rock at him from
@@ -73,6 +74,7 @@ a distance. What is your choise? [fight] or [throw]""")
         invalidoption()
         enterit()
 
+
 def fight():
     print("""You charged into the fight, but without the necessary skills,
 you were easily defeated and killed. Your story ended here.""")
@@ -82,13 +84,14 @@ you were easily defeated and killed. Your story ended here.""")
     else:
         print("Thanks for playing!")
 
+
 def throwstone():
     print("""You threw the stone, but it hit a tree, causing coconuts to fall.
 One struck the islander on the head, and instead of getting angry, he laughed.
 In their tribe, this was a great blessing.
-The islander invited you to his village, where they celebrated your arrival with
-a festive dinner. The tale of the magical stone and the celebratory coconut became
-a legend, bringing laughter to generations.""")
+The islander invited you to his village, where they celebrated your arrival
+with a festive dinner. The tale of the magical stone and the celebratory
+coconut became a legend, bringing laughter to generations.""")
     print("""Congratulations! You won the Island Adventure Game!""")
 
 
