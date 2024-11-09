@@ -7,7 +7,7 @@ the jungle, running towards you with alarming speed. You had to decide quickly:
 beach to find a weapon. Time was running out, and your fate depended
 on your next move.
 [run] or [dive] ?""")
-    option = input(">>>\n")
+    option = input("\n")
     if option == 'dive':
         remains()
     elif option == 'run':
@@ -45,6 +45,17 @@ investigate and [enter] the ruined structure that looms in the distance?
     else:
         invalidoption()
         forest()
+
+
+def returnback():
+    print("""You returned to the beach in search of survivors,
+but you failed to notice the lion stalking you. In the end,
+you were caught and eaten.""")
+    option = input("Would you like to play again? [yes]/[no]\n")
+    if option == 'yes':
+        welcome()
+    else:
+        print("Thanks for playing!")
 
 
 def invalidoption():
