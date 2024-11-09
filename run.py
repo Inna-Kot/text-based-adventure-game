@@ -54,9 +54,24 @@ you were caught and eaten.""")
     option = input("Would you like to play again? [yes]/[no]\n")
     if option == 'yes':
         welcome()
-    else:
+    elif:
         print("Thanks for playing!")
+    else:
+        invalidoption()
+        returnback()
 
+def enterit():
+    print("""You stumble upon a native islander, and you are faced with
+a choice: rush in and engage in a [fight] or [throw] a rock at him from
+a distance. What is your choise? [fight] or [throw]""")
+    option = input()
+    if option == 'throw':
+        throwstone()
+    elif option == 'fight':
+        fight()
+    else:
+        invalidoption()
+        enterit()
 
 def invalidoption():
     print("You entered an invalid option, please try again.")
