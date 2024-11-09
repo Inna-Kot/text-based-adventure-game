@@ -5,8 +5,9 @@ disoriented, you heard angry shouts. A group of indigenous people emerged from
 the jungle, running towards you with alarming speed. You had to decide quickly:
 [run] into the forest to hide or [dive] back to the ship's remains on the
 beach to find a weapon. Time was running out, and your fate depended
-on your next move.""")
-    option = input("\n")
+on your next move. 
+[run] or [dive] ?""")
+    option = input(">>>\n")
     if option == 'dive':
         remains()
     elif option == 'run':
