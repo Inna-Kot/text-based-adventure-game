@@ -16,6 +16,17 @@ on your next move.""")
         welcome()
 
 
+def remains():
+    print("""In the wreckage of the ship, there were no weapons, only debris.
+The indigenous people quickly caught up to you, and you were captured and consumed.
+This is where your story ends.""")
+    option = input("Would you like to play again? [yes]/[no]\n")
+    if option == 'yes':
+        welcome()
+    else:
+        print("Thanks for playing!")
+
+
 def invalidoption():
     print("You entered an invalid option, please try again.")
 
