@@ -82,6 +82,15 @@ you were easily defeated and killed. Your story ended here.""")
     else:
         print("Thanks for playing!")
 
+def throwstone():
+    print("""You threw the stone, but it hit a tree, causing coconuts to fall.
+One struck the islander on the head, and instead of getting angry, he laughed.
+In their tribe, this was a great blessing.
+The islander invited you to his village, where they celebrated your arrival with
+a festive dinner. The tale of the magical stone and the celebratory coconut became
+a legend, bringing laughter to generations.""")
+    print("""Congratulations! You won the Island Adventure Game!""")
+
 
 def invalidoption():
     print("You entered an invalid option, please try again.")
